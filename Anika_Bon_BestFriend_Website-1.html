@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffe5f0">
+<title>Anika | আমার বেস্ট ফ্রেন্ড বোন 💗</title>
+<style>
+:root{--pink:#f66ca8;--deep:#d83d82;--ink:#713650;--pale:#fff1f7}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;padding:20px 14px;display:grid;place-items:center;font-family:system-ui,-apple-system,"Noto Sans Bengali","Segoe UI",sans-serif;color:var(--ink);background:linear-gradient(145deg,#fff2f8,#ffd8e9 55%,#ffeefa);overflow-x:hidden}
+.card{position:relative;z-index:1;width:min(100%,480px);padding:30px 22px;border:2px solid white;border-radius:28px;text-align:center;background:#ffffffdf;box-shadow:0 18px 55px #c34d821f}
+.emoji{font-size:48px;display:inline-block;animation:bob 2s ease-in-out infinite}
+.tag{color:var(--deep);font-size:.8rem;font-weight:800;letter-spacing:.08em;margin:7px 0}
+h1{color:var(--deep);font-size:clamp(2rem,9vw,2.7rem);margin:8px 0 14px}
+p{line-height:1.9}.intro{font-size:1.02rem}
+.note{background:var(--pale);border:1px dashed #f4a1c4;border-radius:20px;padding:16px;margin:20px 0}
+.question{font-size:1.25rem;font-weight:800;margin:20px 0}
+.buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+button{border:0;border-radius:999px;padding:13px 22px;font:inherit;font-weight:800;font-size:1rem;cursor:pointer;min-width:125px;touch-action:manipulation}
+.yes{color:white;background:linear-gradient(135deg,#ff80b7,#df418a);box-shadow:0 7px 18px #e8439333}
+.no{color:#b63b77;background:#ffe2ef;border:1px solid #f7b4d0}
+#reply{display:none;margin-top:18px;padding:15px;border-radius:16px;background:#fff0f6;color:#b72f74;font-weight:700;line-height:1.8}
+footer{font-size:.82rem;color:#ad6a88;margin-top:22px}
+.float{position:fixed;bottom:-35px;pointer-events:none;animation:rise linear forwards;z-index:0}
+@keyframes bob{50%{transform:translateY(-7px) rotate(5deg)}}@keyframes rise{to{transform:translateY(-110vh) rotate(35deg);opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important}}
+</style></head>
+<body><main class="card">
+<div class="emoji" aria-hidden="true">🩷🌸</div><div class="tag">A LITTLE NOTE FOR MY FAVOURITE PERSON</div>
+<h1>এই যে Anika! 🥹</h1>
+<p class="intro">আমার রাগী বোন, আমার বেস্ট ফ্রেন্ড! 💗<br>তোর জন্য ছোট্ট একটা মিষ্টি নোট বানালাম।</p>
+<section class="note">
+<p>শোন পাগলি, আমার কোনো কথা বা কাজে তোর মন খারাপ হয়ে থাকলে সত্যিই সরি রে। 🥺</p>
+<p>তুই আমার কাছে শুধু বোনের মতো না, তুই আমার খুব কাছের একজন বন্ধু। তোর কথা আর অনুভূতি আমার কাছে গুরুত্বপূর্ণ।</p>
+<p>রাগ থাকলে আমাকে বলিস—আমি মন দিয়ে শুনব। তাড়াহুড়ো নেই, তোর যখন ইচ্ছে হবে তখন কথা বলিস। 🌷</p>
+<p>তুই শুধু আমার বোনের মতো না, তুই আমার মনের কথা বলার মানুষও। 🫂💞</p>
+<p>হাজার ঝগড়া হলেও চাই, আমাদের বন্ধুত্বটা যেন কখনো হারিয়ে না যায়। ভুল বোঝাবুঝি হলে আমরা কথা বলে ঠিক করে নেব, কেমন? 🌈</p>
+<p>তোর মন খারাপ হলে আমাকে বলিস, আর আমার ভুল হলে নির্দ্বিধায় বুঝিয়ে দিস। আমি তোর কথা মন দিয়ে শুনব। 💌</p>
+<p>সবসময় একমত না হলেও, তোর প্রতি আমার সম্মান আর মায়া থাকবে। তুই আমার জীবনের সবচেয়ে আপন বন্ধুদের একজন, Anika! 🎀</p>
+</section>
+<div class="question">এবার কি তোর ভাইকে মাফ করা যায়? 🥺💗</div>
+<div class="buttons"><button class="yes" id="yes" type="button">হ্যাঁ, মাফ করলাম 💖</button><button class="no" id="no" type="button">এখনো রাগ আছি 🙈</button></div>
+<div id="reply" role="status" aria-live="polite"></div>
+<section class="note" style="margin-top:18px"><p><strong>একটা ছোট্ট কথা, Anika 💗</strong></p><p>তোর সঙ্গে হাসি-ঠাট্টা, গল্প আর ছোট ছোট স্মৃতিগুলো আমার কাছে অনেক দামি। রাগ কমলে আবার আগের মতো গল্প করিস—কিন্তু তোর সময় আর অনুভূতিকে আমি সম্মান করি। 🥹🌸</p></section>
+<footer>তুই বোনও, আবার বেস্ট ফ্রেন্ডও 🫶<br>— তোর ভাই, ভালোবাসা আর মায়া রইল 💗</footer>
+</main>
+<script>
+const reply=document.getElementById('reply');function hearts(n){const icons=['💗','🌸','💕','✨'];for(let i=0;i<n;i++){const e=document.createElement('span');e.className='float';e.textContent=icons[Math.floor(Math.random()*icons.length)];e.style.left=Math.random()*96+'vw';e.style.fontSize=(16+Math.random()*18)+'px';e.style.animationDuration=(3+Math.random()*3)+'s';document.body.appendChild(e);e.addEventListener('animationend',()=>e.remove(),{once:true})}}
+document.getElementById('yes').addEventListener('click',()=>{reply.style.display='block';reply.textContent='ইয়েই! 🥹💗 ধন্যবাদ রে বোন। তোর হাসিটা থাকুক সবসময়। আমাদের বন্ধুত্ব আর ভাই-বোনের মায়া অটুট থাকুক! 🌸';hearts(18)});
+document.getElementById('no').addEventListener('click',()=>{reply.style.display='block';reply.textContent='আচ্ছা রে, সময় নে। তোর রাগ করার কারণটা আমি শুনতে চাই। যখন মন চাইবে কথা বলিস—আমি আছি, বোন। 🫶';hearts(5)});
+</script></body></html>
